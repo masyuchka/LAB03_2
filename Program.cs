@@ -8,7 +8,8 @@ Console.WriteLine("Введите третью сторону ");
 double c = double.Parse(Console.ReadLine());
 
 double pp = (a+b+c)/2;
-Console.WriteLine($"Периметр: {pp} ");
+Console.WriteLine($"Полупериметр: {pp} ");
 
 Console.WriteLine($"Периметр: {a+b+c} ");
 Console.WriteLine($"Площадь по Герону: {Math.Sqrt(pp*(pp-a)*(pp-b)*(pp-c)):F2} ");
+
