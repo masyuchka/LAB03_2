@@ -13,3 +13,4 @@ Console.WriteLine($"Полупериметр: {pp} ");
 Console.WriteLine($"Периметр: {a+b+c} ");
 Console.WriteLine($"Площадь по Герону: {Math.Sqrt(pp*(pp-a)*(pp-b)*(pp-c)):F2} ");
 
+Console.WriteLine("До свидания!");
